@@ -1,0 +1,113 @@
+	body {
+		font-family: 'EB Garamond', serif;
+	}
+	*, *:before, *:after {
+ 	 -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ 	}
+	.fancy {
+		font-family: "Reenie Beanie",arial,sans-serif;
+	}
+	.panel-container {
+		height: 300px;
+		width: 80%;
+		display: block;
+		margin: 0 auto;
+	}
+	.panel {
+		width: 31%;
+		margin: 10px;
+		float: left;
+		//border: 1px solid #ccc;
+		box-sizing: border-box;
+	}
+	.panel-header {
+		background: #333;
+		color: white;
+		padding: 10px;
+		font-family: "Reenie Beanie",arial,sans-serif;
+		font-size: 2em;
+	}
+	a.btn {
+		background: #0EBFE9;
+		color: white;
+		padding: 5px 10px;
+		border: none;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+	}
+	a.btn:hover {
+		text-decoration: none;
+	}
+	.panel ul li {
+		padding: 2px 0;
+	}
+	/*Typography*/
+	a:link, a:visited {
+		color: #000;
+		text-decoration: underline;
+		font-weight: bold;
+	}
+	a:hover {
+		color: dodgerblue;
+	}
+	h1, h2, h3, h4 {
+		padding: 20px;
+		margin: 0em;
+		line-height: 100%;
+	}
+	h1 {
+		font-size:5em;
+	}
+	p {
+		font-size: 1em;
+		margin: 25px 0;
+	}
+	.size-small {
+		font-size: 1em;
+	}
+	.size-medium {
+		font-size: 2em;
+	}
+	.size-large {
+		font-size: 3em;
+	}
+	.size-super {
+		font-size: 4em;
+	}
+	.size-title {
+		font-size: 5em;
+	}
+	i.fa:hover {
+		color: #0EBFE9;
+	}
+	
+	/*Layout*/
+	div.bg {
+		text-align: center;
+		color: #fff;
+		height: 700px;
+		background-position: center;
+		background-attachment: fixed;
+		-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-image:url('../images/flying.jpg');
+	}
+	
+	/*Functionals*/
+	.align-center {
+		text-align: center;
+	}
+	.clear {
+		clear: both;
+	}
+	/*Responsive*/
+	@media all and (max-width: 1077px){
+  		.panel {
+   		 width: 100%;
+ 		 }
+	}
+
+	
